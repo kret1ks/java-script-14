@@ -173,7 +173,7 @@ const users = [
 
 
 // Отримати масив імен всіх користувачів (поле name).
-const getUserNames = users => users.map(users => users.name)
+const getUserNames = users => users.map(user => user.name)
 console.log(getUserNames(users));
 // [ 'Moore Hensley', 'Sharlene Bush', 'Ross Vazquez', 'Elma Head', 'Carey Barr', 'Blackburn Dotson', 'Sheree Anthony' ]
 
@@ -211,3 +211,8 @@ const getUserWithEmail = (users, email) => {
 
 console.log(getUserWithEmail(users, 'shereeanthony@kog.com')); // {об'єкт користувача Sheree Anthony}
 console.log(getUserWithEmail(users, 'elmahead@omatom.com')); // {об'єкт користувача Elma Head}
+
+
+
+
+
